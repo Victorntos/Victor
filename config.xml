@@ -1,0 +1,29 @@
+    
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="org.sergiolopes.cenourapp"
+        version="1.0.0">
+
+    <name>Menu dispositivos moveis Teste</name>
+
+    <description>
+        Menu do curso de dispositivos moveis.
+    </description>
+
+    <author href="http://sergiolopes.org" email="victor.tss@hotmail.com">
+        Sérgio Lopes
+    </author>
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <preference name="android-minSdkVersion" value="16" />
+    <platform name="android" />
+
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+
+</widget>
